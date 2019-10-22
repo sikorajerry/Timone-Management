@@ -1,6 +1,6 @@
-package cz.prague.home.js;
+package cz.prague.js.home.timone;
 
-import cz.prague.home.js.controller.CommandLineController;
+import cz.prague.js.home.timone.controller.CommandLineController;
 import org.mockito.Mockito;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

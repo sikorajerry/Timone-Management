@@ -1,12 +1,13 @@
-package cz.prague.home.js;
+package cz.prague.js.home.timone;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class TimoneApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(TimoneApplication.class, args);
 	}
+
 }

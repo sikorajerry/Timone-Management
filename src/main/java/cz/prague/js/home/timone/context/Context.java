@@ -1,4 +1,4 @@
-package cz.prague.home.js.context;
+package cz.prague.js.home.timone.context;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

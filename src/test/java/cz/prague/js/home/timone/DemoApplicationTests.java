@@ -1,6 +1,6 @@
-package cz.prague.home.js;
+package cz.prague.js.home.timone;
 
-import cz.prague.home.js.context.Context;
+import cz.prague.js.home.timone.context.Context;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

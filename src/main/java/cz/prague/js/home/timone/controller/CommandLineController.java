@@ -1,7 +1,8 @@
-package cz.prague.home.js.controller;
+package cz.prague.js.home.timone.controller;
 
-import cz.prague.home.js.context.Context;
-import cz.prague.home.js.print.PrintTask;
+
+import cz.prague.js.home.timone.context.Context;
+import cz.prague.js.home.timone.print.PrintTask;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
