@@ -88,13 +88,20 @@ Pro běh pak
 
 ## Technologie
 
-V projektu je použito : Spring , Mockito , JUnit 
+V projektu je použito : Spring , Mockito , JUnit , Maven
 
 ## Popis
 
 Projekt je rozdělen :
+
 1, controller - řizení timer a vtupu z přikazové řádky
+
 2, print - výstup dat na obrazovku
+
 3, context - drží si data a operace na nich
+
 4, test - testovací třídy
 
+## Nedodělky
+
+V projektu není povoleno vkládat více dat najednou , není udělana validace existujících měn, chybí přepočet na měnu USD
