@@ -15,7 +15,6 @@ import java.util.List;
 import java.util.Map;
 
 import static org.junit.Assert.assertEquals;
-import static org.mockito.Mockito.mock;
 
 @SpringBootTest(classes = TestApplicationConfiguration.class)
 @RunWith(SpringRunner.class)

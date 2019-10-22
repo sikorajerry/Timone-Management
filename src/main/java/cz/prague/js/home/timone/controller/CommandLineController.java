@@ -17,7 +17,7 @@ import java.util.Timer;
 @Component
 public class CommandLineController {
     public static final Scanner scanner = new Scanner(System.in);
-    public static final String CMDLINE_EXIT = "exit";
+    public static final String CMDLINE_EXIT = "quit";
     public static final  Integer MINUT = 60*1000;
 
     private Context context;

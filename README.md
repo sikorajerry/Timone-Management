@@ -80,7 +80,21 @@ RMB 2000 (USD 314.60)
 HKD 300 (USD 38.62)
 
 ## Instalace
-Pro sestavení aplikace použijeme maven příkaz mvn clean install
+
+Pro sestavení aplikace použijeme maven příkaz ``` mvn clean install``` v javě 8 a výše
 
 Pro běh pak
-java -jar ./target/restclient-0.0.1-SNAPSHOT.jar
+```java -jar ./target/timone-0.0.1-SNAPSHOT.jar ```
+
+## Technologie
+
+V projektu je použito : Spring , Mockito , JUnit 
+
+## Popis
+
+Projekt je rozdělen :
+1, controller - řizení timer a vtupu z přikazové řádky
+2, print - výstup dat na obrazovku
+3, context - drží si data a operace na nich
+4, test - testovací třídy
+

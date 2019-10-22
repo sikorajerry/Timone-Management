@@ -9,7 +9,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * Created by Jiri Sikora
- * Context hold the logic and data
+ * Context hold the data and method on data
  */
 @Service
 public class Context {
