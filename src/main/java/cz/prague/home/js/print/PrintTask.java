@@ -17,11 +17,8 @@ public class PrintTask extends TimerTask {
     @Autowired
     private Context context;
 
-    public void printToStandartOutput() {
-
-        context.getRecords().forEach((k,v)->{
-            System.out.println("Currency: " + k + " Amount : " + v);
-        });
+    private void printToStandartOutput() {
+        context.getRecords().forEach((k,v)-> System.out.println("Currency: " + k + " Amount : " + v));
     }
 
     @Override
